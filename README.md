@@ -1,5 +1,6 @@
-# teapot
-Adversarial examples with keras and cleverhans
+# How to convince Inception you're a teapot.
+
+
 
 
 ## Installation
@@ -23,10 +24,21 @@ pip install <thing>
 for any scientific python libraries you are missing.
 
 
-## How to 
+## How to run
 
-First
+First, find an image you would like to use as an input and supply its path.  In the example we attack an unsuspecting goldfish, but you can choose anything you like:
 
 ~~~
 IMAGE_PATH=<path_to_your_image>
 ~~~
+
+
+Now we're ready to go:
+
+~~~
+$ python teapot_attack.py
+~~~
+
+
+
+## Exercises
