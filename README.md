@@ -46,10 +46,10 @@ $ python teapot_attack.py
 
 2. Try changing the parameter `eps` - what does it do?  Does it change the answer to question 1?
 
-3. Change the attack so that it is an *untargeted* attack.  You'll need to change the arguements to the FastGradientSign method - check the documentation [here](https://cleverhans.readthedocs.io/en/latest/source/attacks.html). 
+3. Change the attack so that it is an *untargeted* attack.  You'll need to change the arguements to the FastGradientSign method - check the documentation [here](https://cleverhans.readthedocs.io/en/latest/source/attacks.html). Just do this attack once don't repeat it - what might happen if you did repeat it? Tip:
 
 ~~~
 fgsm_params = {'eps': eps, 'clip_min': -1.0, 'clip_max': 1.0}
 ~~~
 
-Just do this attack once don't repeat it - what might happen if you did repeat it?
+
