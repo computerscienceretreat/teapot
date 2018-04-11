@@ -39,6 +39,7 @@ $ python teapot_attack.py
 ~~~
 
 
+If the code crashes when it reaches the `FastGradientSign` method then you probably need to update your version of Tensorflow to be compatible with cleverhans.
 
 ## Exercises
 
